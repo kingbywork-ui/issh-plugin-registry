@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-17T10:04:57.260Z",
+  "updated": "2026-10-28T05:54:38.303Z",
   "plugins": [
     {
       "id": "issh-plugin-ai-assistant",
@@ -18,11 +18,11 @@
         "mcp:remote"
       ],
       "minAppVersion": "0.0.6",
-      "downloadUrl": "https://github.com/kingbywork-ui/issh-plugin-ai-assistant/releases/download/v0.2.2/issh-plugin-ai-assistant-0.2.2.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-ai-assistant/0.2.2/issh-plugin-ai-assistant-0.2.2.tgz",
       "sha256": "6740cd1ad50ddca5447a05ea8a6c934ac9138338d28c101a983341b251ceee6b",
       "signature": "goaUEizMdBfRS5fZe9TTbqUz2bXKYTyc4ZkEwek9NaFhO6BjZjIraDbXJ5lw2VQ/EwmoPEYH5K/VLse3zgCwCA==",
-      "homepage": "https://github.com/kingbywork-ui/issh-plugin-ai-assistant",
-      "repository": "https://github.com/kingbywork-ui/issh-plugin-ai-assistant",
+      "homepage": "https://gitee.com/YangAlvin/issh-plugin-ai-assistant",
+      "repository": "https://gitee.com/YangAlvin/issh-plugin-ai-assistant",
       "downloads": 0
     },
     {
@@ -39,12 +39,29 @@
         "vault:read"
       ],
       "minAppVersion": "0.0.1",
-      "downloadUrl": "https://github.com/kingbywork-ui/issh-plugin-config-sync/releases/download/v0.2.0/issh-plugin-config-sync-0.2.0.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-config-sync/0.2.0/issh-plugin-config-sync-0.2.0.tgz",
       "sha256": "6f570b6bd6df7913e4c4c831fad7f6a9441b1d56fde043c6ea35b56f72a874f4",
       "signature": "4F+glysdyaAYGNP5A3Io8MHIw2kr09IyIp34tUJnbzCxigTnHiuiqKphgScai+Uibo+H1Prutg5prx4oG0uZCw==",
-      "homepage": "https://github.com/kingbywork-ui/issh-plugin-config-sync",
-      "repository": "https://github.com/kingbywork-ui/issh-plugin-config-sync",
+      "homepage": "https://gitee.com/YangAlvin/issh-plugin-config-sync",
+      "repository": "https://gitee.com/YangAlvin/issh-plugin-config-sync",
       "downloads": 458
+    },
+    {
+      "id": "issh-plugin-host-password",
+      "name": "批量修改主机密码",
+      "version": "0.1.1",
+      "description": "手动批量修改托管 SSH 账户密码，查看最近记录并导出结果",
+      "kind": "feature",
+      "permissions": [
+        "panel:register",
+        "hostPassword.rotate"
+      ],
+      "minAppVersion": "0.1.7",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-host-password/0.1.1/issh-plugin-host-password-0.1.1.tgz",
+      "repository": "https://github.com/kingbywork-ui/issh/tree/main/plugins/issh-plugin-host-password",
+      "sha256": "7bb845336c2d88a3fee3b8f9509bb38d4d162cd3b670acde60059ba057aae11f",
+      "signature": "TDsM8ViyMjWYxqMvYVLg2auaQT0OfsFTKuOws1LNAyTfCYco2YuQCvGzB+fgDz6F+bBElroEPuphOY2IZcFrBw==",
+      "downloads": 0
     },
     {
       "id": "issh-plugin-linkifier",
@@ -57,11 +74,11 @@
         "terminal:decorate"
       ],
       "minAppVersion": "0.0.1",
-      "downloadUrl": "https://github.com/kingbywork-ui/issh-plugin-linkifier/releases/download/v0.1.1/issh-plugin-linkifier-0.1.1.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-linkifier/0.1.1/issh-plugin-linkifier-0.1.1.tgz",
       "sha256": "a1cefb6b2ff74537f389b79dc7b4c9ee7c896057601d536776b2e436f9a8d219",
       "signature": "eMVm2hznr0otESWvN33cVHTSFUZEN7EoDdP7bVqkg1yuWK+Gj/l+g1OEfjlca5YP+WCJhsiS/NsM6dVw2kG5Bw==",
-      "homepage": "https://github.com/kingbywork-ui/issh-plugin-linkifier",
-      "repository": "https://github.com/kingbywork-ui/issh-plugin-linkifier",
+      "homepage": "https://gitee.com/YangAlvin/issh-plugin-linkifier",
+      "repository": "https://gitee.com/YangAlvin/issh-plugin-linkifier",
       "downloads": 154
     },
     {
@@ -79,11 +96,11 @@
         "network:postJson"
       ],
       "minAppVersion": "0.0.1",
-      "downloadUrl": "https://github.com/kingbywork-ui/issh-plugin-llm/releases/download/v0.3.0/issh-plugin-llm-0.3.0.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-llm/0.3.0/issh-plugin-llm-0.3.0.tgz",
       "sha256": "538bb6474fe71a799c0e36745ca90e5760f9b3224b1aef1b5ea038a211beb9cc",
       "signature": "n9oRVhh86p4kjbf4ublWFHuf2DiuDqWIy7E3ecM1NLgvg6xkXzlPEWSRXBYsJonKrGM4q7jfDapIhh4268SwDg==",
-      "homepage": "https://github.com/kingbywork-ui/issh-plugin-llm",
-      "repository": "https://github.com/kingbywork-ui/issh-plugin-llm",
+      "homepage": "https://gitee.com/YangAlvin/issh-plugin-llm",
+      "repository": "https://gitee.com/YangAlvin/issh-plugin-llm",
       "downloads": 940
     },
     {
@@ -100,11 +117,11 @@
         "profiles:write"
       ],
       "minAppVersion": "0.0.1",
-      "downloadUrl": "https://github.com/kingbywork-ui/issh-plugin-sandbox-demo/releases/download/v0.4.2/issh-plugin-sandbox-demo-0.4.2.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-sandbox-demo/0.4.2/issh-plugin-sandbox-demo-0.4.2.tgz",
       "sha256": "559c730b7b1ab8e60ef18da4516669925f70cda71c7bce72009c0773928a036a",
       "signature": "eXjlMnSW+lpCW2m2oDDsYL6LQK5qDwNoI873EAIUt4J0HjZAk39FAmVR0Bqu8YV9d4sf1CVpxM9D5j3GoktNDQ==",
-      "homepage": "https://github.com/kingbywork-ui/issh-plugin-sandbox-demo",
-      "repository": "https://github.com/kingbywork-ui/issh-plugin-sandbox-demo",
+      "homepage": "https://gitee.com/YangAlvin/issh-plugin-sandbox-demo",
+      "repository": "https://gitee.com/YangAlvin/issh-plugin-sandbox-demo",
       "downloads": 0
     },
     {
@@ -118,11 +135,11 @@
         "panel:register"
       ],
       "minAppVersion": "0.0.1",
-      "downloadUrl": "https://github.com/kingbywork-ui/issh-plugin-serial/releases/download/v0.1.0/issh-plugin-serial-0.1.0.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-serial/0.1.0/issh-plugin-serial-0.1.0.tgz",
       "sha256": "85a7ca6da348bff3a31ea8cc9607e54f90e69d1530a26929ac09a51754c2f69e",
       "signature": "35dsWfkYuH1qFtZl4niDHT2PZ87lrWzu73/QNpAOwTFzqW3TSpeYUnrKnOIkPPlouExG9xZowm4l7wku9Wm8AQ==",
-      "homepage": "https://github.com/kingbywork-ui/issh-plugin-serial",
-      "repository": "https://github.com/kingbywork-ui/issh-plugin-serial",
+      "homepage": "https://gitee.com/YangAlvin/issh-plugin-serial",
+      "repository": "https://gitee.com/YangAlvin/issh-plugin-serial",
       "downloads": 526
     },
     {
@@ -136,11 +153,11 @@
         "terminal:decorate"
       ],
       "minAppVersion": "0.0.1",
-      "downloadUrl": "https://github.com/kingbywork-ui/issh-plugin-theme-field/releases/download/v0.1.3/issh-plugin-theme-field-0.1.3.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-theme-field/0.1.3/issh-plugin-theme-field-0.1.3.tgz",
       "sha256": "e241bafe52c2c3529b619523bceb6ab03aa3f4afb2428aa41a192b768174d328",
       "signature": "fjk0MvHBGgQRPWZNdR0nvPY3oMWIyLbiuBGilCV8FELRcHT6FRLSEJLgJyO+LOjpx3XoccZ8RWV3t2s4GE68Dw==",
-      "homepage": "https://github.com/kingbywork-ui/issh-plugin-theme-field",
-      "repository": "https://github.com/kingbywork-ui/issh-plugin-theme-field",
+      "homepage": "https://gitee.com/YangAlvin/issh-plugin-theme-field",
+      "repository": "https://gitee.com/YangAlvin/issh-plugin-theme-field",
       "downloads": 0
     },
     {
@@ -154,11 +171,11 @@
         "terminal:decorate"
       ],
       "minAppVersion": "0.0.1",
-      "downloadUrl": "https://github.com/kingbywork-ui/issh-plugin-theme-foundry/releases/download/v0.1.3/issh-plugin-theme-foundry-0.1.3.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-theme-foundry/0.1.3/issh-plugin-theme-foundry-0.1.3.tgz",
       "sha256": "36e12745b7ce701b24541694df5eca8bc1275b1033c74c9b342d4f537929f14b",
       "signature": "Emf7dbKlVt8lB8EfHN10r3I5YbNlYIP2tZE8PJI8RUk1QrP4ueEHwVwCdS6NcAj5p2TNTp921ausR2YVtmcwAg==",
-      "homepage": "https://github.com/kingbywork-ui/issh-plugin-theme-foundry",
-      "repository": "https://github.com/kingbywork-ui/issh-plugin-theme-foundry",
+      "homepage": "https://gitee.com/YangAlvin/issh-plugin-theme-foundry",
+      "repository": "https://gitee.com/YangAlvin/issh-plugin-theme-foundry",
       "downloads": 0
     },
     {
@@ -172,11 +189,11 @@
         "terminal:decorate"
       ],
       "minAppVersion": "0.0.1",
-      "downloadUrl": "https://github.com/kingbywork-ui/issh-plugin-theme-phosphor/releases/download/v0.1.3/issh-plugin-theme-phosphor-0.1.3.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-theme-phosphor/0.1.3/issh-plugin-theme-phosphor-0.1.3.tgz",
       "sha256": "5c63474de8889ec4faed35b91c8157840afe6f41c05ee46aaa47fbd8351ba37d",
       "signature": "rPrZRrYpkKJSjIA8Un9OCnhDw7SC+YviT/qCR2pEKDpQQr+lESuhbHVOJOEKKgi9bCzQC8CKmLNCGr5RiQQrAA==",
-      "homepage": "https://github.com/kingbywork-ui/issh-plugin-theme-phosphor",
-      "repository": "https://github.com/kingbywork-ui/issh-plugin-theme-phosphor",
+      "homepage": "https://gitee.com/YangAlvin/issh-plugin-theme-phosphor",
+      "repository": "https://gitee.com/YangAlvin/issh-plugin-theme-phosphor",
       "downloads": 0
     },
     {
@@ -190,11 +207,11 @@
         "terminal:decorate"
       ],
       "minAppVersion": "0.0.1",
-      "downloadUrl": "https://github.com/kingbywork-ui/issh-plugin-theme-void/releases/download/v0.1.3/issh-plugin-theme-void-0.1.3.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-theme-void/0.1.3/issh-plugin-theme-void-0.1.3.tgz",
       "sha256": "40c803bbbaaf37c193d47866b6446d31379e79eb7618bd223c6612fe6d745430",
       "signature": "IpV1cKmMbfVVR7I1gfALdHiyGDk3D2uOAJt02wihxsRSgWeQKasu6aTPQ+Z4sSl+o0aP+KNIsVItHZjcIlG3BA==",
-      "homepage": "https://github.com/kingbywork-ui/issh-plugin-theme-void",
-      "repository": "https://github.com/kingbywork-ui/issh-plugin-theme-void",
+      "homepage": "https://gitee.com/YangAlvin/issh-plugin-theme-void",
+      "repository": "https://gitee.com/YangAlvin/issh-plugin-theme-void",
       "downloads": 0
     }
   ]
