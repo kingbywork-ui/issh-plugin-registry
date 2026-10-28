@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-28T05:54:38.303Z",
+  "updated": "2026-10-28T09:52:01.332Z",
   "plugins": [
     {
       "id": "issh-plugin-ai-assistant",
@@ -49,18 +49,18 @@
     {
       "id": "issh-plugin-host-password",
       "name": "批量修改主机密码",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "手动批量修改托管 SSH 账户密码，查看最近记录并导出结果",
       "kind": "feature",
       "permissions": [
         "panel:register",
         "hostPassword.rotate"
       ],
-      "minAppVersion": "0.1.7",
-      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-host-password/0.1.1/issh-plugin-host-password-0.1.1.tgz",
+      "minAppVersion": "0.1.8",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-host-password/0.1.2/issh-plugin-host-password-0.1.2.tgz",
       "repository": "https://github.com/kingbywork-ui/issh/tree/main/plugins/issh-plugin-host-password",
-      "sha256": "7bb845336c2d88a3fee3b8f9509bb38d4d162cd3b670acde60059ba057aae11f",
-      "signature": "TDsM8ViyMjWYxqMvYVLg2auaQT0OfsFTKuOws1LNAyTfCYco2YuQCvGzB+fgDz6F+bBElroEPuphOY2IZcFrBw==",
+      "sha256": "79408bbc133070b4911b3cd1a350fb4682a19e7be0945093d7ee45eacdbbf807",
+      "signature": "c7wSbPRTRHXfpTVRoAXKD707Zr0XN6Gmq0reMyIJ6XDQB0YfpcG0MGR2S9kletiWSE2paq1lpVB1vxp5jHGUBg==",
       "downloads": 0
     },
     {
