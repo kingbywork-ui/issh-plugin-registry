@@ -58,7 +58,7 @@
       ],
       "minAppVersion": "0.1.8",
       "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-host-password/0.1.2/issh-plugin-host-password-0.1.2.tgz",
-      "repository": "https://github.com/kingbywork-ui/issh/tree/main/plugins/issh-plugin-host-password",
+      "repository": "https://github.com/kingbywork-ui/host-password-plugin",
       "sha256": "79408bbc133070b4911b3cd1a350fb4682a19e7be0945093d7ee45eacdbbf807",
       "signature": "c7wSbPRTRHXfpTVRoAXKD707Zr0XN6Gmq0reMyIJ6XDQB0YfpcG0MGR2S9kletiWSE2paq1lpVB1vxp5jHGUBg==",
       "downloads": 0
