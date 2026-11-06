@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-06T07:04:29.374Z",
+  "updated": "2026-11-06T08:11:27.431Z",
   "plugins": [
     {
       "id": "issh-plugin-ai-assistant",
@@ -66,7 +66,7 @@
     {
       "id": "issh-plugin-linkifier",
       "name": "链接识别",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "终端输出中的 URL / IP / 文件路径识别，Ctrl+点击 在浏览器打开或复制",
       "kind": "feature",
       "audience": "user",
@@ -74,9 +74,9 @@
         "terminal:decorate"
       ],
       "minAppVersion": "0.0.1",
-      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-linkifier/0.1.1/issh-plugin-linkifier-0.1.1.tgz",
-      "sha256": "a1cefb6b2ff74537f389b79dc7b4c9ee7c896057601d536776b2e436f9a8d219",
-      "signature": "eMVm2hznr0otESWvN33cVHTSFUZEN7EoDdP7bVqkg1yuWK+Gj/l+g1OEfjlca5YP+WCJhsiS/NsM6dVw2kG5Bw==",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-linkifier/0.1.2/issh-plugin-linkifier-0.1.2.tgz",
+      "sha256": "0d89027ea3520c83114b732a9a210e1949fbaa88036d70aea325857710db44ae",
+      "signature": "tX8RabHJ8HdYTgYFR8MAOFKpX6h5Gh5wfV4HI+1vsyGTEwCFeb0hW8FkjYi86/SuJdx2e2m52UBr8NI+1MXSCw==",
       "homepage": "https://gitee.com/YangAlvin/issh-plugin-linkifier",
       "repository": "https://gitee.com/YangAlvin/issh-plugin-linkifier",
       "downloads": 154
