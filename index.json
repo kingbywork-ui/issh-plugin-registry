@@ -49,7 +49,7 @@
     {
       "id": "issh-plugin-host-password",
       "name": "主机认证管理",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "批量修改托管 SSH 账户密码，为密码主机生成并切换到独立密钥，或轮换私钥认证主机；查看改密记录并导出结果",
       "kind": "feature",
       "permissions": [
@@ -57,10 +57,10 @@
         "hostPassword.rotate"
       ],
       "minAppVersion": "0.2.0",
-      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-host-password/0.1.3/issh-plugin-host-password-0.1.3.tgz",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-host-password/0.1.4/issh-plugin-host-password-0.1.4.tgz",
       "repository": "https://github.com/kingbywork-ui/host-password-plugin",
-      "sha256": "ac16f4efba264b3274fbdde8eaa58f41c55c12a80c3f7d20e213164e80f4bdb6",
-      "signature": "BuCb6GE89PciqQwF6C4/j/WYFGuxBcgJR3bxQ8Z6ssocKKI0D3xq2LY+rg6WtmRuFFrOPRgnftCSOT0RJKyiCg==",
+      "sha256": "dff4d0d74d39e7052cdd0b838c168f9bb4e737531f9eb732f25da933644680c4",
+      "signature": "QmkM10gRik7d9ClSjDJ8wAOEqpTtwfXENP/CU/hMzPwtLN1SsTJND6C1XrF4fTLjQbG/t4v6sBcKj16wdJe2AA==",
       "downloads": 0
     },
     {
