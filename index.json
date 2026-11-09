@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-09T07:00:28.475Z",
+  "updated": "2026-11-09T07:13:08.959Z",
   "plugins": [
     {
       "id": "issh-plugin-ai-assistant",
@@ -106,7 +106,7 @@
     {
       "id": "issh-plugin-logsave",
       "name": "终端日志",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "按终端窗口独立开启的原始输出日志，保存至系统选择的目录",
       "kind": "feature",
       "permissions": [
@@ -114,10 +114,10 @@
         "terminal:decorate",
         "fs.logs.write"
       ],
-      "minAppVersion": "0.2.1",
-      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-logsave/0.1.0/issh-plugin-logsave-0.1.0.tgz",
-      "sha256": "6ecc7ecd33a18ef36574a5e7307c7752eb72e480d4441ce6e6f219b22698b2c2",
-      "signature": "bOIHpokTNEmN6ckh2UXW/yqZnokSeEjFNTvTkdoTFr0LfwNz/gTLz0qRmuC1m7YCew4+LTWGuj6uAYzdUSsfCw==",
+      "minAppVersion": "0.2.0",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-logsave/0.1.1/issh-plugin-logsave-0.1.1.tgz",
+      "sha256": "02b96cd22f0873cc68c79ffe0d8e748245745a681791f4d6043ef2b64eb89c8f",
+      "signature": "Vcp4SFlc/HJsNaOjjD7aEscbnxCIry4+cShnmHtypRmUaU7Aubg6p4rj9QusptJIhaf6AFvxycUHmXaysRcWDw==",
       "homepage": "https://gitee.com/YangAlvin/issh-plugin-logsave",
       "repository": "https://gitee.com/YangAlvin/issh-plugin-logsave",
       "downloads": 0
