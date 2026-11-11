@@ -73,8 +73,9 @@ node scripts/sync-plugin-gitee.mjs --publish # 单次提交原包、索引与说
 
 | 插件 | 版本 | 分类 | 说明 |
 |---|---|---|---|
-| issh-plugin-ai-assistant | 0.2.2 | feature | AI 助手 |
-| issh-plugin-linkifier | 0.1.1 | feature | 终端链接识别 |
+| issh-plugin-ai-assistant | 0.3.0 | feature | AI 助手 |
+| issh-plugin-host-password | 0.1.4 | feature | 主机认证管理 |
+| issh-plugin-linkifier | 0.1.3 | feature | 终端链接识别 |
 | issh-plugin-config-sync | 0.2.0 | integration | 主机配置同步 |
 | issh-plugin-serial | 0.1.0 | integration | 串口终端 |
 | issh-plugin-sandbox-demo | 0.4.2 | feature | 沙箱面板演示（开发者示例） |
