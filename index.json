@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-11T05:05:58.732Z",
+  "updated": "2026-11-11T06:01:28.882Z",
   "plugins": [
     {
       "id": "issh-plugin-ai-assistant",
@@ -18,10 +18,10 @@
         "mcp:remote",
         "fs:read"
       ],
-      "minAppVersion": "0.0.6",
+      "minAppVersion": "0.3.0",
       "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-ai-assistant/0.3.0/issh-plugin-ai-assistant-0.3.0.tgz",
-      "sha256": "deff88299a0e8cff799cbbf19c4d1c19bc129359eda872ec2ce24bcb762d0af5",
-      "signature": "rLYDadLSwaLGWFR05tUmkRIBqVQBV6XXP/TB2/49k9e/SvH0FrDz+yzqjIlNBKYTMpPMI07Baj/s5AH2Pud/Dw==",
+      "sha256": "325dd0d294e9ad79cd2388ec48bf95e50d131047acea10186f780375b2c7d9f0",
+      "signature": "i7z4yV02pL7D9TBl+c5ucqsXy4yCtXt5qIzkicCKaU/sSJb1UxeNVju2Lq7SMKBls2fO9w53cPiUzwzXpq7bCQ==",
       "homepage": "https://gitee.com/YangAlvin/issh-plugin-ai-assistant",
       "repository": "https://gitee.com/YangAlvin/issh-plugin-ai-assistant",
       "downloads": 0
