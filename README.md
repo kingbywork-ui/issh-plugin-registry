@@ -12,15 +12,15 @@ issh 桌面客户端（Tauri 版）的官方插件索引仓库。客户端「设
     "updated": "2026-08-27T00:00:00Z",
     "plugins": [
         {
-            "id": "issh-plugin-llm",
-            "name": "AI 命令补全",
-            "version": "0.3.0",
+            "id": "issh-plugin-linkifier",
+            "name": "链接识别",
+            "version": "0.1.2",
             "description": "…",
             "kind": "feature",
             "audience": "user",
-            "permissions": ["terminal:decorate", "settings:tab"],
+            "permissions": ["terminal:decorate"],
             "minAppVersion": "0.0.1",
-            "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-llm/0.3.0/issh-plugin-llm-0.3.0.tgz",
+            "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-linkifier/0.1.2/issh-plugin-linkifier-0.1.2.tgz",
             "sha256": "…",
             "signature": "…",
             "homepage": "…",
@@ -75,7 +75,6 @@ node scripts/sync-plugin-gitee.mjs --publish # 单次提交原包、索引与说
 |---|---|---|---|
 | issh-plugin-ai-assistant | 0.2.2 | feature | AI 助手 |
 | issh-plugin-linkifier | 0.1.1 | feature | 终端链接识别 |
-| issh-plugin-llm | 0.3.0 | feature | AI 命令补全 |
 | issh-plugin-config-sync | 0.2.0 | integration | 主机配置同步 |
 | issh-plugin-serial | 0.1.0 | integration | 串口终端 |
 | issh-plugin-sandbox-demo | 0.4.2 | feature | 沙箱面板演示（开发者示例） |

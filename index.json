@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "updated": "2026-11-09T08:18:26.681Z",
+  "updated": "2026-11-11T05:05:58.732Z",
   "plugins": [
     {
       "id": "issh-plugin-ai-assistant",
       "name": "AI 助手",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "description": "多模型流式对话、本地 MCP 工具、终端上下文分析与命令辅助",
       "kind": "feature",
       "audience": "user",
@@ -15,12 +15,13 @@
         "terminal:write",
         "network:postJson",
         "mcp:stdio",
-        "mcp:remote"
+        "mcp:remote",
+        "fs:read"
       ],
       "minAppVersion": "0.0.6",
-      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-ai-assistant/0.2.2/issh-plugin-ai-assistant-0.2.2.tgz",
-      "sha256": "6740cd1ad50ddca5447a05ea8a6c934ac9138338d28c101a983341b251ceee6b",
-      "signature": "goaUEizMdBfRS5fZe9TTbqUz2bXKYTyc4ZkEwek9NaFhO6BjZjIraDbXJ5lw2VQ/EwmoPEYH5K/VLse3zgCwCA==",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-ai-assistant/0.3.0/issh-plugin-ai-assistant-0.3.0.tgz",
+      "sha256": "deff88299a0e8cff799cbbf19c4d1c19bc129359eda872ec2ce24bcb762d0af5",
+      "signature": "rLYDadLSwaLGWFR05tUmkRIBqVQBV6XXP/TB2/49k9e/SvH0FrDz+yzqjIlNBKYTMpPMI07Baj/s5AH2Pud/Dw==",
       "homepage": "https://gitee.com/YangAlvin/issh-plugin-ai-assistant",
       "repository": "https://gitee.com/YangAlvin/issh-plugin-ai-assistant",
       "downloads": 0
@@ -80,28 +81,6 @@
       "homepage": "https://gitee.com/YangAlvin/issh-plugin-linkifier",
       "repository": "https://gitee.com/YangAlvin/issh-plugin-linkifier",
       "downloads": 154
-    },
-    {
-      "id": "issh-plugin-llm",
-      "name": "AI 命令补全",
-      "version": "0.3.0",
-      "description": "LLM 驱动的 shell 命令补全：输入时防抖请求 LLM API，Ctrl+Y 接受候选",
-      "kind": "feature",
-      "audience": "user",
-      "permissions": [
-        "terminal:decorate",
-        "settings:tab",
-        "fs:read",
-        "ssh:exec",
-        "network:postJson"
-      ],
-      "minAppVersion": "0.0.1",
-      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-llm/0.3.0/issh-plugin-llm-0.3.0.tgz",
-      "sha256": "538bb6474fe71a799c0e36745ca90e5760f9b3224b1aef1b5ea038a211beb9cc",
-      "signature": "n9oRVhh86p4kjbf4ublWFHuf2DiuDqWIy7E3ecM1NLgvg6xkXzlPEWSRXBYsJonKrGM4q7jfDapIhh4268SwDg==",
-      "homepage": "https://gitee.com/YangAlvin/issh-plugin-llm",
-      "repository": "https://gitee.com/YangAlvin/issh-plugin-llm",
-      "downloads": 940
     },
     {
       "id": "issh-plugin-logsave",
