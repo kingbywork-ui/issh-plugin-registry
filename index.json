@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "updated": "2026-11-11T08:43:05.818Z",
+  "updated": "2026-11-12T03:49:22.444Z",
   "plugins": [
     {
       "id": "issh-plugin-ai-assistant",
       "name": "AI 助手",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "多模型流式对话、本地 MCP 工具、终端上下文分析与命令辅助",
       "kind": "feature",
       "audience": "user",
@@ -18,10 +18,10 @@
         "mcp:remote",
         "fs:read"
       ],
-      "minAppVersion": "0.3.0",
-      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-ai-assistant/0.3.0/issh-plugin-ai-assistant-0.3.0.tgz",
-      "sha256": "325dd0d294e9ad79cd2388ec48bf95e50d131047acea10186f780375b2c7d9f0",
-      "signature": "i7z4yV02pL7D9TBl+c5ucqsXy4yCtXt5qIzkicCKaU/sSJb1UxeNVju2Lq7SMKBls2fO9w53cPiUzwzXpq7bCQ==",
+      "minAppVersion": "0.3.1",
+      "downloadUrl": "https://gitee.com/YangAlvin/issh-plugin-registry/raw/main/packages/issh-plugin-ai-assistant/0.3.1/issh-plugin-ai-assistant-0.3.1.tgz",
+      "sha256": "b79ef5c97ea67f59cd70173256d2851f8f73373f4c4e81ab9a03b62229160e52",
+      "signature": "czKYthPIanTCEWHURkdZZg1x+0weg5lnAnjgUH60uId7/72Nipu7rH2a0fuy/jKP4qUjGw3lHUn5ZuBxcjv+Cw==",
       "homepage": "https://gitee.com/YangAlvin/issh-plugin-ai-assistant",
       "repository": "https://gitee.com/YangAlvin/issh-plugin-ai-assistant",
       "downloads": 0
